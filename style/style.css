@@ -106,4 +106,44 @@ position: 230px 363px;
 /* about styles */
 .about{
     border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+
+}
+.itemdes{
+    font-weight: 600;
+}
+.aboutitems{
+    display: flex;
+    justify-content: space-around;
+}
+.sectitle{
+    text-align: center;
+}
+.secdes{
+    text-align: center;
+}
+/* skill section style */
+.skillcont{
+    display:flex ;
+    gap: 24px;
+    margin-bottom: 130px;
+
+}
+.skill{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    width: 267px;
+    border-radius: 5px;
+    /* margin-top: 130px; */
+    /* main section a margintop deya ase ekbare */
 }

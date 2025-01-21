@@ -147,3 +147,57 @@ main section{
     /* margin-top: 130px; */
     /* main section a margintop deya ase ekbare */
 }
+/* resume style */
+.resume-cont{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+.exp-subtit{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.exp-des, .exp-subtit{
+    color: #757575;
+}
+.exp-title{
+    font-size: 25px;
+    font-weight: bold;
+}
+.resume-column-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.section-title{
+    text-align: center;
+}
+.resume hr{
+    margin: 30px 5px;
+}
+.resumebtn{
+    margin-top: 50px;
+    text-align: center;
+}
+/* footer style */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.fotcol{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"],footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    width: 100%;
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    
+}
+
+   
